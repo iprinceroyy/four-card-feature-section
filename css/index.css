@@ -17,7 +17,7 @@
   color: #4c4e61;
   text-align: center;
   line-height: 1.5;
-  padding: 3rem 4rem;
+  padding: 3rem 3rem;
   background-color: #fafafa;
 }
 
@@ -38,7 +38,7 @@ span {
 .feature-1 {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 2rem 0;
   border-top-width: 0.3rem;
   border-top-style: solid;
@@ -63,7 +63,7 @@ span {
 .feature-2 {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 2rem 0;
   border-top-width: 0.3rem;
   border-top-style: solid;
@@ -88,7 +88,7 @@ span {
 .feature-3 {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 2rem 0;
   border-top-width: 0.3rem;
   border-top-style: solid;
@@ -113,7 +113,7 @@ span {
 .feature-4 {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 2rem 0;
   border-top-width: 0.3rem;
   border-top-style: solid;

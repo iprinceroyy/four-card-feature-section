@@ -43,7 +43,7 @@ $fw-600: 600;
     color: $very-dark-blue;
     text-align: center;
     line-height: 1.5;
-    padding: 3rem 4rem;
+    padding: 3rem 3rem;
     background-color: $very-light-gray;
 }
 
@@ -64,7 +64,7 @@ span {
 @mixin features-theme($color: $cyan) {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 2.5rem;
     margin: 2rem 0;
     border-top-width: 0.3rem;
     border-top-style: solid;
