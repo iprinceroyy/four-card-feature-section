@@ -40,13 +40,64 @@ $fw-600: 600;
     font-size: 0.9375rem;
     font-family: $f-family;
     font-weight: $fw-200;
+    color: $very-dark-blue;
     text-align: center;
     line-height: 1.5;
-    padding: 5rem 2rem;
+    padding: 3rem 4rem;
+    background-color: $very-light-gray;
+}
+
+h1 {
+    font-weight: inherit;
+}
+
+span {
+    font-weight: $fw-600;
+    display: block;
 }
 
 .features {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+@mixin features-theme($color: $cyan) {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-top-width: 0.3rem;
+    border-top-style: solid;
+    border-top-color: $color;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1rem 2rem 2rem -2rem $very-dark-blue;
+    h2 {
+        text-align: start;
+    }
+    p {
+        font-weight: 400;
+        color: $grayish-blue;
+        text-align: justify;
+        margin: 0.5rem 0 1.5rem 0;
+    }
+    .icon-images {
+        align-self: flex-end;
+    }
+}
+
+.feature-1 {
+    @include features-theme($color: $cyan);
+}
+
+.feature-2 {
+    @include features-theme($color: $red);
+}
+
+.feature-3 {
+    @include features-theme($color: $blue);
+}
+
+.feature-4 {
+    @include features-theme($color: $orange);
 }

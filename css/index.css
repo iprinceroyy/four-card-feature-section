@@ -14,15 +14,125 @@
   font-size: 0.9375rem;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  color: #4c4e61;
   text-align: center;
   line-height: 1.5;
-  padding: 5rem 2rem;
+  padding: 3rem 4rem;
+  background-color: #fafafa;
+}
+
+h1 {
+  font-weight: inherit;
+}
+
+span {
+  font-weight: 600;
+  display: block;
 }
 
 .features {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.feature-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-top-width: 0.3rem;
+  border-top-style: solid;
+  border-top-color: #45d3d3;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1rem 2rem 2rem -2rem #4c4e61;
+}
+.feature-1 h2 {
+  text-align: start;
+}
+.feature-1 p {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: justify;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.feature-1 .icon-images {
+  align-self: flex-end;
+}
+
+.feature-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-top-width: 0.3rem;
+  border-top-style: solid;
+  border-top-color: #ea5353;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1rem 2rem 2rem -2rem #4c4e61;
+}
+.feature-2 h2 {
+  text-align: start;
+}
+.feature-2 p {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: justify;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.feature-2 .icon-images {
+  align-self: flex-end;
+}
+
+.feature-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-top-width: 0.3rem;
+  border-top-style: solid;
+  border-top-color: #549ef2;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1rem 2rem 2rem -2rem #4c4e61;
+}
+.feature-3 h2 {
+  text-align: start;
+}
+.feature-3 p {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: justify;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.feature-3 .icon-images {
+  align-self: flex-end;
+}
+
+.feature-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-top-width: 0.3rem;
+  border-top-style: solid;
+  border-top-color: #fcaf4a;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1rem 2rem 2rem -2rem #4c4e61;
+}
+.feature-4 h2 {
+  text-align: start;
+}
+.feature-4 p {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: justify;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.feature-4 .icon-images {
+  align-self: flex-end;
 }
 
 /*# sourceMappingURL=index.css.map */
