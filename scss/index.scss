@@ -1,0 +1,52 @@
+/* ==================
+        Colors          
+=================== */
+
+
+/*  Primary  */
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+/*  Neutral  */
+
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+/* ======================= 
+        Typography 
+======================== */
+
+
+/*  Body Copy  */
+
+$font-size: 15px;
+
+/*  Fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+$f-family: 'Poppins',
+sans-serif;
+$fw-200: 200;
+$fw-400: 400;
+$fw-600: 600;
+
+/*  Main  */
+
+.container {
+    font-size: 0.9375rem;
+    font-family: $f-family;
+    font-weight: $fw-200;
+    text-align: center;
+    line-height: 1.5;
+    padding: 5rem 2rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
