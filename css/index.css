@@ -53,7 +53,7 @@ span {
 .feature-1 p {
   font-weight: 400;
   color: #a3a5ae;
-  text-align: justify;
+  text-align: left;
   margin: 0.5rem 0 1.5rem 0;
 }
 .feature-1 .icon-images {
@@ -78,7 +78,7 @@ span {
 .feature-2 p {
   font-weight: 400;
   color: #a3a5ae;
-  text-align: justify;
+  text-align: left;
   margin: 0.5rem 0 1.5rem 0;
 }
 .feature-2 .icon-images {
@@ -103,7 +103,7 @@ span {
 .feature-3 p {
   font-weight: 400;
   color: #a3a5ae;
-  text-align: justify;
+  text-align: left;
   margin: 0.5rem 0 1.5rem 0;
 }
 .feature-3 .icon-images {
@@ -128,7 +128,7 @@ span {
 .feature-4 p {
   font-weight: 400;
   color: #a3a5ae;
-  text-align: justify;
+  text-align: left;
   margin: 0.5rem 0 1.5rem 0;
 }
 .feature-4 .icon-images {
