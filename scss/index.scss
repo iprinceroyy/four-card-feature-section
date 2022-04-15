@@ -42,7 +42,7 @@ $fw-600: 600;
     font-weight: $fw-200;
     color: $very-dark-blue;
     line-height: 1.5;
-    padding: 3rem 3rem;
+    padding: 3rem;
     background-color: $very-light-gray;
     @media (min-width: 992px) {
         padding: 3rem 8rem;
@@ -50,7 +50,7 @@ $fw-600: 600;
 }
 
 h1 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-align: center;
     font-weight: inherit;
 }
