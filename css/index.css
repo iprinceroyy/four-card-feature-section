@@ -25,19 +25,8 @@
   }
 }
 
-.title {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (min-width: 992px) {
-  .title {
-    padding: 0 28%;
-  }
-}
-
 h1 {
+  text-align: center;
   font-weight: inherit;
 }
 
@@ -46,13 +35,17 @@ span {
   display: block;
 }
 
-.title p {
+.container > p {
   font-size: 1rem;
   font-weight: 400;
   color: #a3a5ae;
   margin: 1rem 0;
   text-align: center;
-  align-self: center;
+}
+@media (min-width: 992px) {
+  .container > p {
+    padding: 0 28%;
+  }
 }
 
 .features {
@@ -153,6 +146,7 @@ span {
   font-family: "Poppins", sans-serif;
   color: #4c4e61;
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */

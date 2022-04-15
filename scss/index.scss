@@ -49,17 +49,8 @@ $fw-600: 600;
     }
 }
 
-.title {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media (min-width: 992px) {
-        padding: 0 28%;
-    }
-}
-
 h1 {
+    text-align: center;
     font-weight: inherit;
 }
 
@@ -68,13 +59,15 @@ span {
     display: block;
 }
 
-.title p {
+.container>p {
     font-size: 1rem;
     font-weight: $fw-400;
     color: $grayish-blue;
     margin: 1rem 0;
     text-align: center;
-    align-self: center;
+    @media (min-width: 992px) {
+        padding: 0 28%;
+    }
 }
 
 .features {
@@ -160,4 +153,5 @@ span {
     font-family: $f-family;
     color: $very-dark-blue;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
