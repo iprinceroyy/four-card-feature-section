@@ -45,7 +45,7 @@ $fw-600: 600;
     padding: 3rem;
     background-color: $very-light-gray;
     @media (min-width: 992px) {
-        padding: 3rem 8rem;
+        padding: 5rem 8rem;
     }
 }
 
@@ -53,6 +53,9 @@ h1 {
     font-size: 1.6rem;
     text-align: center;
     font-weight: inherit;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
 }
 
 span {
