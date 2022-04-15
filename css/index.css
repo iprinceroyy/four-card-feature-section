@@ -33,7 +33,7 @@
 }
 @media (min-width: 992px) {
   .title {
-    padding: 0 23rem;
+    padding: 0 28%;
   }
 }
 
@@ -92,8 +92,8 @@ span {
 .feature-3,
 .feature-4 {
     margin-bottom: 0;
-    /* for desktop view, thier should be no margin between box
-                it will be handle by grid-gap*/
+    /* for desktop view, thier should be no bottom margin 
+                between box it will be handled by grid-gap*/
   }
 }
 .feature-1 h2,
