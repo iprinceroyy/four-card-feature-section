@@ -25,11 +25,8 @@
   }
 }
 
-.title {
-  font-size: 0.8rem;
-}
-
 h1 {
+  font-size: 1.5rem;
   text-align: center;
   font-weight: inherit;
 }
@@ -39,7 +36,7 @@ span {
   display: block;
 }
 
-.title > p {
+.container > p {
   font-size: 1rem;
   font-weight: 400;
   color: #a3a5ae;
@@ -47,7 +44,7 @@ span {
   margin: 1rem 0;
 }
 @media (min-width: 992px) {
-  .title > p {
+  .container > p {
     padding: 0 28%;
   }
 }
