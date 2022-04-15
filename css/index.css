@@ -11,7 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 /*  Main  */
 .container {
-  font-size: 0.9375rem;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   color: #4c4e61;
@@ -23,6 +23,10 @@
   .container {
     padding: 3rem 8rem;
   }
+}
+
+.title {
+  font-size: 0.9rem;
 }
 
 h1 {

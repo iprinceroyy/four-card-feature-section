@@ -37,7 +37,7 @@ $fw-600: 600;
 /*  Main  */
 
 .container {
-    font-size: 0.9375rem;
+    font-size: $font-size;
     font-family: $f-family;
     font-weight: $fw-200;
     color: $very-dark-blue;
@@ -47,6 +47,10 @@ $fw-600: 600;
     @media (min-width: 992px) {
         padding: 3rem 8rem;
     }
+}
+
+.title {
+    font-size: 0.9rem;
 }
 
 h1 {
