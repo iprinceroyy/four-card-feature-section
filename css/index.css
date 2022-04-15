@@ -44,7 +44,6 @@ span {
   font-weight: 400;
   color: #a3a5ae;
   margin: 1rem 0;
-  text-align: center;
 }
 @media (min-width: 992px) {
   .title > p {
